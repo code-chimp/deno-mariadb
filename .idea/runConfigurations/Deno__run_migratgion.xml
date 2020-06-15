@@ -1,0 +1,18 @@
+<component name="ProjectRunConfigurationManager">
+    <configuration
+        default="false"
+        name="Deno: run migratgion"
+        type="DenoConfigurationType"
+        inputPath="$PROJECT_DIR$/src/initDb.ts"
+        programParameters="run --config=tsconfig.json --allow-env --allow-net">
+    <option name="envs">
+      <entry key="DB" value="music" />
+      <entry key="DB_HOST" value="localhost" />
+      <entry key="DB_PASS" value="S00p3r_S3kr1t" />
+      <entry key="DB_PORT" value="3310" />
+      <entry key="DB_USER" value="music_admin" />
+      <entry key="DENO_DIR" value="./deno_dir" />
+    </option>
+    <method v="2" />
+  </configuration>
+</component>

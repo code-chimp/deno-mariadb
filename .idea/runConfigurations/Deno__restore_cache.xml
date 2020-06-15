@@ -1,0 +1,10 @@
+<component name="ProjectRunConfigurationManager">
+    <configuration
+        default="false"
+        name="Deno: restore cache"
+        type="DenoConfigurationType"
+        inputPath="$PROJECT_DIR$/src/deps.ts"
+        programParameters="cache -r --lock=lock.json">
+    <method v="2" />
+  </configuration>
+</component>

@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "plugins": [
+      {
+        "name": "typescript-deno-plugin",
+        "enable": true,
+        "importmap": "import_map.json"
+      }
+    ]
+  },
+  "include": ["./**/*.ts", "./**/*.js"]
+}

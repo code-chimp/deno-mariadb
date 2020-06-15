@@ -1,0 +1,10 @@
+<component name="ProjectRunConfigurationManager">
+    <configuration
+        default="false"
+        name="Deno: update cache"
+        type="DenoConfigurationType"
+        inputPath="$PROJECT_DIR$/src/deps.ts"
+        programParameters="cache --lock=lock.json --lock-write">
+    <method v="2" />
+  </configuration>
+</component>

@@ -1,0 +1,18 @@
+### Test HTTP requests from JetBrains IDEs
+POST http://localhost:4000/bands
+Content-Type: application/json
+
+{
+"name": "The Ramones",
+"genre": "Punk",
+"website": "https://www.theramones.com"
+}
+
+###
+GET http://localhost:4000/bands
+
+
+###
+GET http://localhost:4000/bands/1
+
+###
