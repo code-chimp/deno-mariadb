@@ -28,7 +28,7 @@ scripts:
         DB: music
 
   migrate:
-    - cmd: deno run src/initiDb.ts
+    - cmd: deno run src/initDb.ts
       tsconfig: tsconfig.json
       env:
         DB_HOST: localhost
